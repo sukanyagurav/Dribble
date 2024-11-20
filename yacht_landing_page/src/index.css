@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle::after{
+    content: '';
+    position: absolute;
+    width:80px;
+    height: 80px;
+    border-radius: 50%;
+    border:3px solid #EAB308;
+    z-index: -1;
+    top: -30%;
+    left: -10%;
+
+}
+
+/* .stats div:not(:last-child){
+    border-right: 2px solid #EAB308;
+
+} */
